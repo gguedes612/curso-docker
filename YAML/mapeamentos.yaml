@@ -1,0 +1,5 @@
+host: geek
+datacenter:
+  location: Pernambuco
+  router: 42
+#Valor unicos!!

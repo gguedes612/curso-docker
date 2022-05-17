@@ -1,0 +1,16 @@
+host: teste
+ips:
+  switch: 192.168.0.1
+  router: "192.168.0.2"
+funcionamento: | #respeita a quebra de lima
+  segunda - das 8:00 às 17:00
+  terça - das 8:00 às 17:00
+  quarta - das 8:00 às 17:00
+  quinta - das 8:00 às 17:00
+  sexta - das 8:00 às 17:00
+comentarios: > #não respeita a quebra de lima
+  segunda - das 8:00 às 17:00
+  terça - das 8:00 às 17:00
+  quarta - das 8:00 às 17:00
+  quinta - das 8:00 às 17:00
+  sexta - das 8:00 às 17:00

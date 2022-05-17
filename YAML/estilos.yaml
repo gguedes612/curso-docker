@@ -1,0 +1,14 @@
+#Block style
+host1: guilherme
+datacenter1:
+  location: São Paulo
+  router: 43
+roles1:
+  - web
+  - dns
+
+
+#Flow style
+host2: "Jefferson"
+datacenter2: { location: São Paulo, router: 42 }
+roles2: [ web, dns]

@@ -1,0 +1,7 @@
+%TAG ! TAG:HOST:GEEK:
+---
+host: geek
+datacenter:
+  location: !GEEK São Paulo
+
+---

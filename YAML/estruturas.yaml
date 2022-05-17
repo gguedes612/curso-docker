@@ -1,0 +1,9 @@
+host: Guilherme
+datacenter:
+  location: Pernambuco
+
+--- #Adiciona outra estrutura podendo repetir parametros
+
+host: Jefferson
+datacenter:
+  location: Paraiba
