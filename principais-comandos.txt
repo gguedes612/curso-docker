@@ -1,0 +1,25 @@
+docker --version
+
+docker --help
+
+docker container ls 
+
+docker ps 
+
+docker ps -a
+
+docker container --help
+
+docker container start <container ID>
+
+docker pull <image>
+
+docker image rm <image ID>
+
+docker tag imagem target_image
+
+docker run ubuntu echo "Docker na Geek University"
+
+docker rm <image id> -f
+
+docker run -d -p 80:80 ngnix (Rodar container em background e espelhar a porta 80)
