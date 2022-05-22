@@ -22,4 +22,10 @@ docker run ubuntu echo "Docker na Geek University"
 
 docker rm <image id> -f
 
-docker run -d -p 80:80 ngnix (Rodar container em background e espelhar a porta 80)
+docker run -d -p 80:80 ngnix 
+    -d - rodar container em background
+    -p definir porta espelho do container
+
+docker run --name linux_alpine --rm -it alpine:3.12.1 sh 
+    --name - define nome do container
+    -it - colocar o terminal iteratipo

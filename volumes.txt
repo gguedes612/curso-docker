@@ -1,0 +1,7 @@
+docker run -v "/var/www" --name servidor_web -d nginx
+
+docker exec -it servidor_web sh
+
+docker run -v "/home/guilherme/Github/curso-docker-geek-university:/usr/share/nginx/html" -p 8080:80 --name servidor_web -d nginx
+
+docker inspect servidor_web
