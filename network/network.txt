@@ -1,0 +1,11 @@
+docker run --rm alpine sh -c "ifconfig"
+
+docker run --rm --net none alpine sh -c "ifconfig"
+
+docker run --rm --net host alpine sh -c "ifconfig"
+
+docker network create --driver bridge nova_rede
+
+docker network connect <network> <container>
+
+docker network disconnect <network> <container>
